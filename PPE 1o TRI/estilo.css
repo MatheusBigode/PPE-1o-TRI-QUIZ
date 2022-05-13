@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+* {
+    background-size: 100%;
+    position: relative;
+    box-sizing: border-box;
+    font-family: Gill Sans, sans-serif;
+
+}
+ 
+.r6 img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 9cm;
+    width: 9cm;
+    justify-content: center;
+}
+
+body {
+    background-size: 100%;
+    position: relative;
+    background-size: cover;
+   }
+   
+:root {
+    background-color: #0c0c0c;
+}
+
+h1{
+    font-size: 7.4rem;
+    margin-bottom: 1rem;
+}
+ 
+h2{
+text-align: center; 
+font-size: 3rem;
+color: #ffff;
+padding-bottom: 10rem;
+}
+
+.container {
+text-align: center;
+width: 700px; 
+margin-left: auto;
+margin-right: auto; 
+color: #ffff;
+font-size: 33px;
+}
+ 
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, #q11, #q12, #q13, #q14, #q15, #q16, #q17, #q18, #q19, #q20, #enviar {
+    color: rgb(0, 0, 0);
+    margin-bottom: 8rem;
+    font-size: 20px;
+    padding: 10px;
+}
+
+ 
+.num {
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+    margin-top: 10rem;
+    background-color: #c4ae50;
+}
+
+.quest {
+    font-size: 25px;
+    color: #ffff;
+    margin-top: 10rem;
+}
+
+.btn {
+    font-size: 2.4rem;
+    padding: 7rem;
+    width:  14rem;
+    height: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    background: #c4ae50;
+    border-radius: 3rem;
+    border-style: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #e0d089;
+    transition: transform 150ms;
+    transform: scale(1.03);
+    background-color: #e0d089;
+    color: rgb(0, 0, 0);
+}
+
+.pontuacao {
+    padding: 2rem;
+    background-color: #c4ae50;
+    color: black;
+}
+
+footer{
+    background-color: #c4ae50;
+    text-align: left; 
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+}
